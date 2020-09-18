@@ -60,7 +60,7 @@ namespace Inlamningsuppgift1_DanArv
                     _logger.LogInformation($"Failed. Could not log temperature - {ex.Message}");
                 }
 
-                await Task.Delay(5*1000, stoppingToken);
+                await Task.Delay(60*1000, stoppingToken);
             }
         }
     }
