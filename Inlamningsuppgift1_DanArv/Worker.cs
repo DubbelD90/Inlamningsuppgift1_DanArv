@@ -40,11 +40,11 @@ namespace Inlamningsuppgift1_DanArv
                 try
                 {
 
-                    if (Temp < 5)
+                    if (Temp < 10)
                     {
                         _logger.LogInformation($"It's cold outside, dress warm. Temperature is: {Temp} degrees Celsius");
                     }
-                    else if (Temp > 25)
+                    else if (Temp > 30)
                     {
                         _logger.LogInformation($"It's hot outside. The temperature is: {Temp} degrees Celsius");
                     }
